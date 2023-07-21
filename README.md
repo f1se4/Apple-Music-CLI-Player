@@ -14,7 +14,7 @@ Dependencies: [Viu](https://github.com/atanunq/viu) (unless you always use text 
 
 Configuration: 
 
-* Place album-art.applescript at ~/Library/Scripts/album-art.applescript, or configure a valid path in the np() func of am.sh for wherever you decide to keep it
+* Place on ~/Documents
 * (Optional) In the np() func of am.sh, adjust the `-h` dimension of the album art (look for the two calls to `viu`) to ensure a square appearance with your terminal emulator's line spacing
 
 Usage (aliased): `am np`

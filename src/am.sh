@@ -55,12 +55,12 @@ Q                       Quit np and Music.app
 			fi
 			if [ "$1" != "-t" ]
 			then
-				rm ~/Library/Scripts/tmp*
-				osascript ~/Library/Scripts/album-art.applescript
-				if [ -f ~/Library/Scripts/tmp.png ]; then
-					art=$(clear; viu -b ~/Library/Scripts/tmp.png -w 31 -h 14)
+				rm /Users/fiser/Documents/Apple-Music-CLI-Player/src/tmp*
+				osascript /Users/fiser/Documents/Apple-Music-CLI-Player/src/album-art.applescript
+				if [ -f /Users/fiser/Documents/Apple-Music-CLI-Player/src/tmp.png ]; then
+					art=$(clear; viu -b /Users/fiser/Documents/Apple-Music-CLI-Player/sr/tmp.png -w 31 -h 14)
 				else
-					art=$(clear; viu -b ~/Library/Scripts/tmp.jpg -w 31 -h 14)
+					art=$(clear; viu -b /Users/fiser/Documents/Apple-Music-CLI-Player/sr/tmp.jpg -w 31 -h 14)
 				fi
 			fi
 			cyan=$(echo -e '\e[00;36m')
